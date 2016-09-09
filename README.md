@@ -5,6 +5,8 @@ Demoproject for a bug in Android Support Library 24.2.0:
 - com.android.support:appcompat-v7:24.2.0
 - com.android.support:design:24.2.0
 
+Change between Build variants to see the difference.
+
 Videos:
 - [Bug 24.2.0](https://github.com/vetoketju/CollapsingToolBarTitleBugDemo/blob/master/buggy.mp4?raw=true)
 - [Working 24.1.1](https://github.com/vetoketju/CollapsingToolBarTitleBugDemo/blob/master/working.mp4?raw=true)

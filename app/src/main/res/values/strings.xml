@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CollapsingToolBarTitleBugDemo</string>
+    <string name="callonlayout">Invoke OnLayout</string>
+</resources>

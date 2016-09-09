@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "com.villevalta.collapsingtoolbartitlebugdemo"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+
+    productFlavors{
+        bug{
+            applicationIdSuffix "bug"
+        }
+        working{
+            applicationIdSuffix "working"
+        }
+    }
+
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    bugCompile 'com.android.support:appcompat-v7:24.2.0'
+    bugCompile 'com.android.support:design:24.2.0'
+
+    // Does work with older library version:
+    workingCompile 'com.android.support:appcompat-v7:24.1.1'
+    workingCompile 'com.android.support:design:24.1.1'
+}
+
